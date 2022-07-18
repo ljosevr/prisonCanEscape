@@ -8,7 +8,7 @@ Instrucciones para Ejecutar
   {
   "prison":["||||||S||","|P ||   |","||  | | |","|v| | < |","| |   | |","|   |   |","|||||||||"]
   }
-* La prisión debe tener la misma dimensión. ejemplo 3x3 o 9x9. Si no, esta se dara porque no puede escapar
+* La prisión debe tener la misma dimensión. ejemplo 3x3 o 9x9. Si no, esta se resolverá con que el prisionero no puede escapar.
 * Para consultar Estadísticas de la Prisión, ejecute la siguiente Api:
   http://54.226.147.184:8001/stats Modo -> GET en la aplicación Postman ya sea escritorio o web.
 * La BD se maneja en H2 (en Memoria) Mientras el Api este arriba mantendra las estadisticas.  
