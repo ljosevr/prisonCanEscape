@@ -3,14 +3,14 @@
 Api para determinar si un prisionero puede escapar de una carcel. 
 
 Instrucciones para Ejecutar
-* Debe ejecutar la Url: http://54.226.147.184:8001/prisoner Modo -> POST en la aplicación Postman ya sea escritorio o web.
+* Debe ejecutar la Url: http://prisonercanescape-env.eba-2n6jkedm.us-east-1.elasticbeanstalk.com:8002/prisoner
 * Debe Enviar en el Body como Json
   {
   "prison":["||||||S||","|P ||   |","||  | | |","|v| | < |","| |   | |","|   |   |","|||||||||"]
   }
 * La prisión debe tener la misma dimensión. ejemplo 3x3 o 9x9. Si no, esta se resolverá con que el prisionero no puede escapar.
-* Para consultar Estadísticas de la Prisión, ejecute la siguiente Api:
-  http://54.226.147.184:8001/stats Modo -> GET en la aplicación Postman ya sea escritorio o web.
+* Para consultar Estadísticas de la Prisión, ejecute la siguiente Api: http://prisonercanescape-env.eba-2n6jkedm.us-east-1.elasticbeanstalk.com:8002/stats   Modo -> GET en la aplicación Postman ya sea escritorio o web. 
+   
 * La BD se maneja en H2 (en Memoria) Mientras el Api este arriba mantendra las estadisticas.  
   
   <img width="1421" alt="Captura de Pantalla 2022-07-17 a la(s) 10 35 52 p m" src="https://user-images.githubusercontent.com/39562093/179441936-f0f7474c-003f-49bb-8165-bfb2b90600ac.png">
